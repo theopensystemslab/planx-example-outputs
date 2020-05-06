@@ -1,0 +1,85 @@
+{
+  "entries": {
+    "property.c31": {
+      "id": "property.c31",
+      "val": "false",
+      "auto": true
+    },
+    "property.landAONB": {
+      "id": "property.landAONB",
+      "val": "false",
+      "auto": true
+    },
+    "property.landBroads": {
+      "id": "property.landBroads",
+      "val": "false",
+      "auto": true
+    },
+    "property.landExplosivesStorage": {
+      "id": "property.landExplosivesStorage",
+      "val": "false",
+      "auto": true
+    },
+    "property.landNP": {
+      "id": "property.landNP",
+      "val": "false",
+      "auto": true
+    },
+    "property.landSafeguarded": {
+      "id": "property.landSafeguarded",
+      "val": "false",
+      "auto": true
+    },
+    "property.landSafetyHazard": {
+      "id": "property.landSafetyHazard",
+      "val": "false",
+      "auto": true
+    },
+    "property.landSSI": {
+      "id": "property.landSSI",
+      "val": "false",
+      "auto": true
+    },
+    "property.landWCA": {
+      "id": "property.landWCA",
+      "val": "false",
+      "auto": true
+    },
+    "property.landWHS": {
+      "id": "property.landWHS",
+      "val": "false",
+      "auto": true
+    },
+    "property.buildingType": {
+      "id": "property.buildingType",
+      "val": "residential.dwelling.flat",
+      "auto": true
+    },
+    "property.landConservation": {
+      "id": "property.landConservation",
+      "val": "false",
+      "auto": true
+    },
+    "property.buildingListed": {
+      "id": "property.buildingListed",
+      "val": "false",
+      "auto": true
+    },
+    "property.landTPO": {
+      "id": "property.landTPO",
+      "val": "false",
+      "auto": true
+    },
+    "property.southwarkSunrayEstate": {
+      "id": "property.southwarkSunrayEstate",
+      "val": "false",
+      "auto": true
+    },
+    "proposal.projectType": {
+      "id": "proposal.projectType",
+      "val": "modifyInterior",
+      "auto": false,
+      "srcResponseId": "-LsXty7d1LoJpIqQbEta"
+    }
+  }
+}

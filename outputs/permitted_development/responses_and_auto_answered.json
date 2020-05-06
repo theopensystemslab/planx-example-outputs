@@ -1,0 +1,53 @@
+[
+  {
+    "$t": 200,
+    "id": "-LsXty7gFS3aZ7pYDzXZ",
+    "text": "not alter",
+    "flag": "NO_APP_REQUIRED"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7gFS3aZ7pYDzXE",
+    "text": "will not",
+    "flag": "NO_APP_REQUIRED"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7gFS3aZ7pYDzX8",
+    "text": "remain one property"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEta",
+    "text": "alter the interior layout",
+    "val": "modifyInterior"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7cOZycK0rqv8BB",
+    "text": "make alterations"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7cOZycK0rqv8B1",
+    "text": "modify or extend"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7cOZycK0rqv8B7",
+    "text": "a flat",
+    "val": "residential.dwelling.flat"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEsN",
+    "text": "No",
+    "val": "false"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEsP",
+    "text": "No",
+    "val": "false"
+  }
+]

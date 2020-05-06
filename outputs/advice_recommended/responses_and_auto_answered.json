@@ -1,0 +1,57 @@
+[
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEtB",
+    "text": "1-3",
+    "flag": "NO_APP_REQUIRED"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEt9",
+    "text": "a shared house",
+    "val": "true"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEt2",
+    "text": "add an outbuilding",
+    "val": "outbuilding"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7iY-us7Jrq5Y_C",
+    "text": "Yes",
+    "flag": "EDGE_CASE",
+    "val": "true"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7iY-us7Jrq5Y_A",
+    "text": "Yes",
+    "val": "true"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEsZ",
+    "text": "1 storey",
+    "img": "https://planx-infrastructure.s3.amazonaws.com/uploads/7b7b92d6-5c30-436b-9a10-0ebd8ca0628b_Detached_1storey.svg",
+    "val": "1"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7cOZycK0rqv8B3",
+    "text": "a detached house",
+    "val": "residential.dwelling.house.detached"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7cOZycK0rqv8B1",
+    "text": "modify or extend"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEsP",
+    "text": "No",
+    "val": "false"
+  }
+]
