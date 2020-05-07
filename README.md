@@ -53,7 +53,7 @@ So if there were no flags attached to any of the responses the the outcome would
 
 If there was an `EDGE_CASE` flag and a `LIKELY_FAIL` flag then the outcome would be `LIKELY_FAIL` because this flag is considered to be more important.
 
-More info in this video https://www.youtube.com/watch?v=7Yh8S-YUJfo
+More info in this video https://youtu.be/7Yh8S-YUJfo?t=158
 
 # ./outputs
 
