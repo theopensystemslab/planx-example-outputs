@@ -1,6 +1,6 @@
 const graph = require("../data/southwark.json");
 
-const path = "../outputs/advice_recommended";
+const path = "../outputs/permitted_development";
 
 const allResponses = require(`${path}/responses_and_auto_answered.json`);
 const humanResponseIds = require(`${path}/human_responses.json`);
@@ -15,6 +15,7 @@ const data = allResponses.reduce((acc, curr) => {
   const { src } = graph.edges.find(({ tgt }) => tgt === curr.id);
 
   const ob = {
+    id: src,
     ...graph.nodes[src],
     response: {
       ...curr,
