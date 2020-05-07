@@ -1,0 +1,117 @@
+[
+  {
+    "text": "The number of people living at the property will be ",
+    "$t": 100,
+    "info": "Any alteration to a shared house that would, after the works, have more than 6 people living there (known as a  'Large House in Multiple Occupation') will require planning permission.",
+    "policyRef": "General Permitted Development Order 2015",
+    "howMeasured": "A shared house (known as a House in Multiple Occupation or HMO) is a house or flat in which 3 or more people are living who belong to different families/households, and share kitchen, bathroom or toilet facilities. You can read more on this definition [here](https://www.gov.uk/private-renting/houses-in-multiple-occupation) ",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7d1LoJpIqQbEtB",
+      "text": "1-3",
+      "flag": "NO_APP_REQUIRED",
+      "humanResponse": true
+    }
+  },
+  {
+    "text": "The house is used as",
+    "$t": 100,
+    "val": "property.useHMO",
+    "policyRef": " Town and Country Planning (Use Classes) Order 1987",
+    "howMeasured": "A 'shared house' (known as a House in Multiple Occupation or HMO) is a house or flat in which 3 or more people are living who belong to different families/households, and share kitchen, bathroom or toilet facilities. This does not include a homeowner who is living with a lodger, or domestic staff living with a family. You can read more on this definition [here](https://www.gov.uk/private-renting/houses-in-multiple-occupation) ",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7d1LoJpIqQbEt9",
+      "text": "a shared house",
+      "val": true,
+      "humanResponse": true
+    }
+  },
+  {
+    "text": "I want to _______",
+    "$t": 100,
+    "val": "proposal.projectType",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7d1LoJpIqQbEt2",
+      "text": "add an outbuilding",
+      "val": "outbuilding",
+      "humanResponse": true
+    }
+  },
+  {
+    "text": "Is the house listed?",
+    "$t": 100,
+    "val": "property.buildingListed",
+    "info": "Any outbuilding within the curtilage of a listed building will require planning permission.\n",
+    "policyRef": "GPDO 2015 S.2 P.1 E.1 (i)",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7iY-us7Jrq5Y_C",
+      "text": "Yes",
+      "flag": "EDGE_CASE",
+      "val": true,
+      "humanResponse": false
+    }
+  },
+  {
+    "text": "Is the property a house?",
+    "$t": 100,
+    "val": "property.house",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7iY-us7Jrq5Y_A",
+      "text": "Yes",
+      "val": true,
+      "humanResponse": false
+    }
+  },
+  {
+    "text": "The house has",
+    "$t": 100,
+    "val": "property.numberStoreys",
+    "howMeasured": "This does not include any conversion of the original loft into habitable rooms.",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7d1LoJpIqQbEsZ",
+      "text": "1 storey",
+      "img": "https://planx-infrastructure.s3.amazonaws.com/uploads/7b7b92d6-5c30-436b-9a10-0ebd8ca0628b_Detached_1storey.svg",
+      "val": "1",
+      "humanResponse": true
+    }
+  },
+  {
+    "text": "The property is",
+    "$t": 100,
+    "val": "property.buildingType",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7cOZycK0rqv8B3",
+      "text": "a detached house",
+      "val": "residential.dwelling.house.detached",
+      "humanResponse": true
+    }
+  },
+  {
+    "text": "I want to",
+    "$t": 100,
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7cOZycK0rqv8B1",
+      "text": "modify or extend",
+      "humanResponse": true
+    }
+  },
+  {
+    "text": "Are there any protected trees on the property?",
+    "$t": 100,
+    "val": "property.landTPO",
+    "response": {
+      "$t": 200,
+      "id": "-LsXty7d1LoJpIqQbEsP",
+      "text": "No",
+      "val": false,
+      "humanResponse": false
+    }
+  }
+]
