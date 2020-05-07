@@ -76,7 +76,7 @@
       "id": "-LsXty7d1LoJpIqQbEsZ",
       "text": "1 storey",
       "img": "https://planx-infrastructure.s3.amazonaws.com/uploads/7b7b92d6-5c30-436b-9a10-0ebd8ca0628b_Detached_1storey.svg",
-      "val": "1",
+      "val": 1,
       "humanResponse": true
     }
   },
