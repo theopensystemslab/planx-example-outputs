@@ -1,21 +1,14 @@
 [
   {
     "$t": 200,
-    "id": "-LsXty7d1LoJpIqQbEtB",
-    "text": "1-3",
-    "flag": "NO_APP_REQUIRED"
+    "id": "-LsXty7cOZycK0rqv8B1",
+    "text": "modify or extend"
   },
   {
     "$t": 200,
-    "id": "-LsXty7d1LoJpIqQbEt9",
-    "text": "a shared house",
-    "val": "true"
-  },
-  {
-    "$t": 200,
-    "id": "-LsXty7d1LoJpIqQbEt2",
-    "text": "add an outbuilding",
-    "val": "outbuilding"
+    "id": "-LsXty7cOZycK0rqv8B3",
+    "text": "a detached house",
+    "val": "residential.dwelling.house.detached"
   },
   {
     "$t": 200,
@@ -39,14 +32,21 @@
   },
   {
     "$t": 200,
-    "id": "-LsXty7cOZycK0rqv8B3",
-    "text": "a detached house",
-    "val": "residential.dwelling.house.detached"
+    "id": "-LsXty7d1LoJpIqQbEt2",
+    "text": "add an outbuilding",
+    "val": "outbuilding"
   },
   {
     "$t": 200,
-    "id": "-LsXty7cOZycK0rqv8B1",
-    "text": "modify or extend"
+    "id": "-LsXty7d1LoJpIqQbEt9",
+    "text": "a shared house",
+    "val": "true"
+  },
+  {
+    "$t": 200,
+    "id": "-LsXty7d1LoJpIqQbEtB",
+    "text": "1-3",
+    "flag": "NO_APP_REQUIRED"
   },
   {
     "$t": 200,
