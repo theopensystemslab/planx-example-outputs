@@ -1,4 +1,5 @@
 const fs = require("fs");
+const omit = require("lodash/omit");
 
 const dirs = fs
   .readdirSync("./outputs")
@@ -11,6 +12,7 @@ fs.writeFileSync(
   "./db.json",
   JSON.stringify(
     {
+      applications_without_flows: applications.map((a) => omit(a, "flow")),
       applications,
       flags: Object.entries(require("../data/flags")).reduce((acc, [k, v]) => {
         acc[k] = {
