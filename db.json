@@ -3,6 +3,7 @@
     {
       "id": "77f5226c-9e9c-4dea-af12-7f5d15f0ff21",
       "submitted_at": "2020-05-13T22:17:42.535Z",
+      "flagId": "EDGE_CASE",
       "flow": [
         {
           "id": "-LsXty7cOZycK0rqv8B0",
@@ -289,6 +290,7 @@
     {
       "id": "e4c94a81-4169-42df-8ad0-32c4690f4005",
       "submitted_at": "2020-05-14T05:20:25.540Z",
+      "flagId": "NO_APP_REQUIRED",
       "flow": [
         {
           "id": "-LsXty7cOZycK0rqv8B2",
@@ -631,5 +633,43 @@
         }
       ]
     }
-  ]
+  ],
+  "flags": {
+    "MISSING_INFO": {
+      "id": "MISSING_INFO",
+      "name": "Missing info",
+      "description": "Before your project can be assessed, there is some key information you’ll need to find out. If you do not know this information, your council may be able to help you find it out.",
+      "priority": 6
+    },
+    "LIKELY_FAIL": {
+      "id": "LIKELY_FAIL",
+      "name": "Likely refusal",
+      "description": "Based on the information you have provided, your project appears to require planning permission. It appears not to meet all relevant planning policies. If you wish to proceed with this proposal, we strongly recommend a pre-application meeting to discuss these with a planning officer",
+      "priority": 5
+    },
+    "EDGE_CASE": {
+      "id": "EDGE_CASE",
+      "name": "Advice recommended",
+      "description": "Based on the information you have provided, your project appears to require planning permission. In order to be approved you will have to meet with certain key policy objectives. We strongly recommend a pre-application meeting to discuss these with a planning officer.",
+      "priority": 4
+    },
+    "LIKELY_PASS": {
+      "id": "LIKELY_PASS",
+      "name": "Likely approval",
+      "description": "Based on the information you have provided your project appears to require planning permission. It does appear to comply with local planning policies, and so stands a better chance of being approved.",
+      "priority": 3
+    },
+    "PRIOR_APPROVAL": {
+      "id": "PRIOR_APPROVAL",
+      "name": "Prior approval required",
+      "description": "Based on the information you have provided, your project appears to require ‘prior approval’ only. This means it is unlikely that planning permission would be required, however this is subject to no reasonable objections being raised by neighbours or planning officers.",
+      "priority": 2
+    },
+    "NO_APP_REQUIRED": {
+      "id": "NO_APP_REQUIRED",
+      "name": "Permitted development",
+      "description": "Based on the information you have provided your project appears to fall under ‘permitted development’. This means it is unlikely that planning permission would be required. However, you are strongly advised to apply for a certificate of lawful development before proceeding with any works, to provide you and future buyers with legal certainty.",
+      "priority": 1
+    }
+  }
 }

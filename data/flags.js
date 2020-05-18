@@ -61,9 +61,11 @@ const planningPermissionFlags = {
   },
 };
 
-console.log(
-  Object.entries(planningPermissionFlags).reduce((acc, [k, v]) => {
-    acc[k] = v.name;
-    return acc;
-  }, {})
-);
+module.exports = planningPermissionFlags;
+
+// console.log(
+//   Object.entries(planningPermissionFlags).reduce((acc, [k, v]) => {
+//     acc[k] = v.name;
+//     return acc;
+//   }, {})
+// );
