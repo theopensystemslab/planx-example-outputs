@@ -9,7 +9,7 @@ interface QuestionAndResponses {
     auto_answered?: boolean;
     policy_refs?: Array<{
       url?: string;
-      value?: string;
+      text?: string;
     }>;
   };
   responses: Array<{
@@ -53,8 +53,8 @@ const payload: BOPSPayload = {
       metadata: {
         policy_refs: [
           { url: "http://example.com/planning/policy/1/234/a.html" },
-          { value: "GPDO 32.2342.223", url: "http://example.com/gpdo.pdf" },
-          { value: "Southwark SPD figure 123.31" },
+          { text: "GPDO 32.2342.223", url: "http://example.com/gpdo.pdf" },
+          { text: "Southwark SPD figure 123.31" },
         ],
       },
       responses: [
